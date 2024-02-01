@@ -81,7 +81,7 @@ we provide the [pretrained model](https://pan.baidu.com/s/16HvIPHeEm8EF2KphnCOeb
 
 ## Acknowledge
 ### Reference
-1.L2CS-Net : Fine-Grained Gaze Estimation in Unconstrained Environments ([code].(https://github.com/Ahmednull/L2CS-Net))
+1.L2CS-Net : Fine-Grained Gaze Estimation in Unconstrained Environments  [code](https://github.com/Ahmednull/L2CS-Net) 
 
 2.FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age for Bias Measurement and Mitigation ([code].(https://github.com/joojs/fairface))
 
