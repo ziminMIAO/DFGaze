@@ -79,7 +79,7 @@ we provide the [pretrained model](https://pan.baidu.com/s/16HvIPHeEm8EF2KphnCOeb
 `python train.py`
 (Please set the arguments after read the code)
 
-## Acknowledge
+## Acknowledgement
 ### Reference
 1.L2CS-Net : Fine-Grained Gaze Estimation in Unconstrained Environments [ [code](https://github.com/Ahmednull/L2CS-Net) ]
 
