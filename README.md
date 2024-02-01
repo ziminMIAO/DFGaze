@@ -81,13 +81,13 @@ we provide the [pretrained model](https://pan.baidu.com/s/16HvIPHeEm8EF2KphnCOeb
 
 ## Acknowledge
 ### Reference
-1.L2CS-Net : Fine-Grained Gaze Estimation in Unconstrained Environments  [code](https://github.com/Ahmednull/L2CS-Net) 
+1.L2CS-Net : Fine-Grained Gaze Estimation in Unconstrained Environments [ [code](https://github.com/Ahmednull/L2CS-Net) ]
 
-2.FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age for Bias Measurement and Mitigation ([code].(https://github.com/joojs/fairface))
+2.FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age for Bias Measurement and Mitigation [ [code](https://github.com/joojs/fairface) ]
 
-3.Res2net: A new multi-scale backbone architecture ([code].() https://mmcheng.net/res2net/)
+3.Res2net: A new multi-scale backbone architecture [ [code](https://mmcheng.net/res2net/) ]
 
-4.Pyramid Spatial-Temporal Aggregation for Video-based Person Re-Identification ([code].(https://github.com/WangYQ9/VideoReID-PSTA))
+4.Pyramid Spatial-Temporal Aggregation for Video-based Person Re-Identification [ [code](https://github.com/WangYQ9/VideoReID-PSTA) ]
 
 
 ## About
