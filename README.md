@@ -16,7 +16,7 @@ The code has been tested on pytorch=1.8.0 and python 3.7, please refer to `requi
 
 
 ## Dataset
-1.In our experiment we use FaceForensics++, WildDeepfake,CelebDF and DFDCP datasets for evaluation.
+1.In our experiment we use FaceForensics++, WildDeepfake, CelebDF and DFDCP datasets for evaluation.
 
 2.Please divide the video into groups of 32 frames each and put them in the correct path as following.
 
