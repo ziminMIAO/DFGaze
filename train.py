@@ -304,7 +304,7 @@ if __name__ == "__main__":
     ])
   
 
-    trainset = MyDatasetff('/data/datasets/ff++/img32/train', 4,
+    trainset = MyDatasetff('.../your traindataset', 4,
                           train_transforms)  # 10-frame number
 
 
@@ -323,7 +323,7 @@ if __name__ == "__main__":
 
   
 
-    testset=MyDatasetff('/data/datasets/ff++/img32/test' ,4,train_transforms2)
+    testset=MyDatasetff('.../your testdataset' ,4,train_transforms2)
 
 
 
