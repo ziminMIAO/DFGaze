@@ -1,4 +1,4 @@
-# DFGaze
+# Where Deepfakes Gaze at? Spatial-Temporal Gaze Inconsistency Analysis for Video Face Forgery Detection
 ------------------
 
 ## Abstract
@@ -64,10 +64,15 @@ FaceForensics++
         └── REALFF
 ````
 ## Pretrained Model
-we provide some [pretrained model](https://pan.baidu.com/s/16HvIPHeEm8EF2KphnCOebw) (code:lasy) based on FaceForensics++. And we also provide a [Google Drive link](https://drive.google.com/drive/folders/1QP7n5CMZYOq1V95aU7RS8alfQnv1RUIP?usp=drive_link).
+we provide the [pretrained model](https://pan.baidu.com/s/16HvIPHeEm8EF2KphnCOebw) (code:lasz) based on FaceForensics++. And we also provide a [Google Drive link](https://drive.google.com/drive/folders/1QP7n5CMZYOq1V95aU7RS8alfQnv1RUIP?usp=drive_link).
 
 
 ## Usage
+
+**To test a model**
+
+`python test.py`
+
 **To train a model**
 
 `python train.py`
