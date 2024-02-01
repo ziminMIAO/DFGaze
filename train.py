@@ -26,9 +26,6 @@ from res2net_v1b import res2net101_v1b
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--workers', type=int, help='number of data loading workers', default=0)
-parser.add_argument('--batchSize', type=int, default=32, help='batch size')
-parser.add_argument('--imageSize', type=int, default=300, help='the height / width of the input image to network')
 parser.add_argument('--niter', type=int, default=100, help='number of epochs to train for')
 parser.add_argument('--lr', type=float, default=0.00001, help='learning rate')
 parser.add_argument('--beta1', type=float, default=0.9, help='beta1 for adam')
@@ -37,8 +34,6 @@ parser.add_argument('--resume', type=int, default=0, help="choose a epochs to re
 parser.add_argument('--outf', default='/media/gpu/Elements/bc/model', help='folder to output model checkpoints')
 parser.add_argument('--disable_random', action='store_true', default=False, help='disable randomness for routing matrix')
 parser.add_argument('--dropout', type=float, default=0.05, help='dropout percentage')
-parser.add_argument('--manualSeed', type=int, help='manual seed')
-
 opt = parser.parse_args()
 print(opt)
 
@@ -222,11 +217,11 @@ if __name__ == "__main__":
 
 
 
-    modelatt1 = attributecnn.ResNet34()  # 输出18维的特征向量
+    modelatt1 = attributecnn.ResNet34() 
     for i in modelatt1.parameters():
         i.requires_grad = False
 
-    modelatt = attributecnn.ResNet34()  # 输出18维的特征向量
+    modelatt = attributecnn.ResNet34() 
 
 
     print('--------------model1--------------------')
