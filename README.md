@@ -71,6 +71,7 @@ we provide the [pretrained model](https://pan.baidu.com/s/16HvIPHeEm8EF2KphnCOeb
 ## Usage
 
 **To test a model**
+
 First, place the model paths for gaze, attribute, and texture in the appropriate location. You can download them from either Baidu Netdisk or Google Drive.
 
 `python test.py --gpu_id 0`
