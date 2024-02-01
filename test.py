@@ -167,7 +167,7 @@ if __name__ == '__main__':
         transforms.ToTensor(),
         transforms.Normalize(mean=(0.643, 0.466, 0.387), std=(0.259, 0.220, 0.203))
     ])
-    testset = MyDatasetff('/data/datasets/ff++/img32/test',4,
+    testset = MyDatasetff('.../your testdataset',4,
                          test_transforms)
 
     print(len(testset))
