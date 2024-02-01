@@ -77,7 +77,7 @@ we provide the [pretrained model](https://pan.baidu.com/s/16HvIPHeEm8EF2KphnCOeb
 
 **To train a model**
 
-First, you should download the model of gaze, attribute, and texture, and you can download the "pretrained_cnn_models" from Baidu Netdisk and update the corresponding model file paths.
+First, you should download the model of gaze, attribute, and texture, and you can download the "pretrained_cnn_models" from [Google Drive link](https://drive.google.com/drive/folders/1uFKaYSEYP0LHizCYeRp854q1gufVPpt4?usp=drive_link). and update the corresponding model file paths.
 
 
 `python train.py --resume 0 --gpu_id 1 --lr 1e-5 --outf '../your model path' --niter 100`
