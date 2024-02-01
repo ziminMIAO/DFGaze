@@ -17,6 +17,7 @@ The code has been tested on pytorch=1.8.0 and python 3.7, please refer to `requi
 
 ## Dataset
 1.In our experiment we use FaceForensics++, WildDeepfake,CelebDF and DFDCP datasets for evaluation.
+
 2.Please divide the video into groups of 32 frames each and put them in the correct path as following.
 
 ````
@@ -64,7 +65,7 @@ FaceForensics++
         └── REALFF
 ````
 ## Pretrained Model
-we provide the [pretrained model](https://pan.baidu.com/s/16HvIPHeEm8EF2KphnCOebw) (code:lasz) based on FaceForensics++. And we also provide a [Google Drive link](https://drive.google.com/drive/folders/1QP7n5CMZYOq1V95aU7RS8alfQnv1RUIP?usp=drive_link).
+we provide the [pretrained model](https://pan.baidu.com/s/16HvIPHeEm8EF2KphnCOebw) (verification code:lasz) based on FaceForensics++. And we also provide a [Google Drive link](https://drive.google.com/drive/folders/1QP7n5CMZYOq1V95aU7RS8alfQnv1RUIP?usp=drive_link).
 
 
 ## Usage
@@ -77,6 +78,17 @@ we provide the [pretrained model](https://pan.baidu.com/s/16HvIPHeEm8EF2KphnCOeb
 
 `python train.py`
 (Please set the arguments after read the code)
+
+## Acknowledge
+### Reference
+1.L2CS-Net : Fine-Grained Gaze Estimation in Unconstrained Environments ([code].(https://github.com/Ahmednull/L2CS-Net))
+
+2.FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age for Bias Measurement and Mitigation ([code].(https://github.com/joojs/fairface))
+
+3.Res2net: A new multi-scale backbone architecture ([code].() https://mmcheng.net/res2net/)
+
+4.Pyramid Spatial-Temporal Aggregation for Video-based Person Re-Identification ([code].(https://github.com/WangYQ9/VideoReID-PSTA))
+
 
 ## About
 If our project is helpful to you, we hope you can star and fork it. If there are any questions and suggestions, please feel free to contact us.
