@@ -65,7 +65,7 @@ FaceForensics++
         └── REALFF
 ````
 ## Pretrained Model
-we provide the [pretrained model](https://pan.baidu.com/s/16HvIPHeEm8EF2KphnCOebw) (verification code:lasz) based on FaceForensics++. And we also provide a [Google Drive link](https://drive.google.com/drive/folders/1QP7n5CMZYOq1V95aU7RS8alfQnv1RUIP?usp=drive_link).
+we provide the [pretrained model](https://pan.baidu.com/s/16HvIPHeEm8EF2KphnCOebw) (verification code:lasz) based on FaceForensics++. And we also provide a [Quark link](https://pan.quark.cn/s/63fadfed3405).
 
 
 ## Usage
@@ -77,7 +77,7 @@ we provide the [pretrained model](https://pan.baidu.com/s/16HvIPHeEm8EF2KphnCOeb
 
 **To train a model**
 
-First, you should download the model of gaze, attribute, and texture, and you can download the "pretrained_cnn_models" from [Google Drive link](https://drive.google.com/drive/folders/1uFKaYSEYP0LHizCYeRp854q1gufVPpt4?usp=drive_link). and update the corresponding model file paths.
+First, you should download the model of gaze, attribute, and texture, and you can download the "pretrained_cnn_models" from [Quark link](https://pan.quark.cn/s/f831f7d7bbc8). and update the corresponding model file paths.
 
 
 `python train.py --resume 0 --gpu_id 1 --lr 1e-5 --outf '../your model path' --niter 100`
